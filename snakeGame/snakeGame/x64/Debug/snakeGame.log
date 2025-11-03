@@ -1,0 +1,6 @@
+﻿  logic.cpp
+  main.cpp
+C:\Users\вета\Documents\Visual Studio 2022\C++\snakeGame\snakeGame\main.cpp(4,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  visual.cpp
+  Создание кода...
+  snakeGame.vcxproj -> C:\Users\вета\Documents\Visual Studio 2022\C++\snakeGame\x64\Debug\snakeGame.exe
