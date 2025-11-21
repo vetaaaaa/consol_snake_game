@@ -30,3 +30,85 @@ void visual::createMap(size_t height, size_t width)
 		temp.clear();
 	}
 }
+
+void visual::generalMenu()
+{
+	int inputComand;
+	setting.fieled.x = 10;
+	setting.fieled.y = 20;
+	setting.QuantityApples = 2;
+	setting.QuantityWall = 0;
+	system("cls");
+	std::cout << "Game Snake\n";
+	std::cout << "1. Start game\n";
+	std::cout << "2. Resume game\n";
+	std::cout << "3. Settings\n";
+	std::cout << "4. Records\n";
+	std::cout << "5. Exit game\n";
+	while (true) {
+		if (_kbhit()) {
+			inputComand = _getch();
+			if(inputComand == '1') {
+				game = new logic;
+				game->initGame(& setting);
+				inputComand = 'd';
+				while(game->tick(inputComand, map, snake)){
+					if (_kbhit()) {
+						inputComand = _getch();
+					}
+					showMap(map);
+					
+				}
+			}
+			else if(inputComand == '2'){
+			}
+			else if (inputComand == '3') {
+				settingsMenu();
+				system("cls");
+				std::cout << "Game Snake\n";
+				std::cout << "1. Start game\n";
+				std::cout << "2. Resume game\n";
+				std::cout << "3. Settings\n";
+				std::cout << "4. Records\n";
+				std::cout << "5. Exit game\n";
+			}
+			else if (inputComand == '4') {
+				recordsMenu();
+			}
+			else if (inputComand == '5') {
+				return;
+			}
+		}   
+	}
+}
+
+void visual::settingsMenu()
+{
+	int inputComand;
+	system("cls");
+	std::cout << "Settings\n";
+	std::cout << "1. Playing fieled settings"<< setting.fieled.x<<" "<< setting.fieled.y <<"\n";
+	std::cout << "2. Quantity apples\n";
+	std::cout << "3. Quantity wall\n";
+	std::cout << "4. Back\n";
+	while (true) {
+		if (_kbhit()) {
+			inputComand = _getch();
+			if (inputComand == '1') {
+
+			}
+			else if (inputComand == '2') {
+			}
+			else if (inputComand == '3') {
+			}
+			else if (inputComand == '4') {
+				return;
+			}
+		}
+	}
+}
+
+void visual::recordsMenu()
+{
+
+}

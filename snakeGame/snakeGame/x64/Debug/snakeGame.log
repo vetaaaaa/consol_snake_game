@@ -1,6 +1,32 @@
 ﻿  logic.cpp
+C:\Users\вета\Documents\Visual Studio 2022\C++\consol_snake_game\snakeGame\snakeGame\visual.h(17,7): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+  (компиляция исходного файла "logic.cpp")
+  
+C:\Users\вета\Documents\Visual Studio 2022\C++\consol_snake_game\snakeGame\snakeGame\visual.h(17,2): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "logic.cpp")
+  
+C:\Users\вета\Documents\Visual Studio 2022\C++\consol_snake_game\snakeGame\snakeGame\visual.h(17,13): error C2238: непредвиденные лексемы перед ";"
+  (компиляция исходного файла "logic.cpp")
+  
+C:\Users\вета\Documents\Visual Studio 2022\C++\consol_snake_game\snakeGame\snakeGame\logic.h(9,10): error C2001: newline в константе
+  (компиляция исходного файла "logic.cpp")
+  
   main.cpp
-C:\Users\вета\Documents\Visual Studio 2022\C++\snakeGame\snakeGame\main.cpp(4,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\вета\Documents\Visual Studio 2022\C++\consol_snake_game\snakeGame\snakeGame\visual.h(17,7): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\вета\Documents\Visual Studio 2022\C++\consol_snake_game\snakeGame\snakeGame\visual.h(17,2): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\вета\Documents\Visual Studio 2022\C++\consol_snake_game\snakeGame\snakeGame\visual.h(17,13): error C2238: непредвиденные лексемы перед ";"
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\вета\Documents\Visual Studio 2022\C++\consol_snake_game\snakeGame\snakeGame\logic.h(9,10): error C2001: newline в константе
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\вета\Documents\Visual Studio 2022\C++\consol_snake_game\snakeGame\snakeGame\main.cpp(4,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
   visual.cpp
+C:\Users\вета\Documents\Visual Studio 2022\C++\consol_snake_game\snakeGame\snakeGame\logic.h(9,10): error C2001: newline в константе
+  (компиляция исходного файла "visual.cpp")
+  
   Создание кода...
-  snakeGame.vcxproj -> C:\Users\вета\Documents\Visual Studio 2022\C++\snakeGame\x64\Debug\snakeGame.exe

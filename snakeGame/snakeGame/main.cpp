@@ -1,8 +1,8 @@
 #include "logic.h"
 #include "visual.h"
-
+#include <fstream>
 void main() {
 	visual temp;
-	temp.createMap(10, 20);
-	temp.showMap(temp.map);
+	logic log;
+	temp.generalMenu();
 }

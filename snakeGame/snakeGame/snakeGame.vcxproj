@@ -128,6 +128,7 @@
     <ClCompile Include="visual.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="GeneralStructur.h" />
     <ClInclude Include="logic.h" />
     <ClInclude Include="visual.h" />
   </ItemGroup>
